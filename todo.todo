@@ -1,0 +1,64 @@
+1.Getting all the reviews
+GET  ==> http://127.0.0.1:8000/user/feedback/getFeedback?salon_uuid=
+   # need a user_name 
+   # without auth header reviews should get
+
+
+2. Getting all the wishlist
+GET  ==> http://127.0.0.1:8000/user/wishlist
+    # need a salon_name
+
+3. Getting a single salon data
+GET  ==> http://127.0.0.1:8000/user/salon?uuid=
+    # if there is header Auth 
+       -> wishlisted :true or false
+       if true wishlisted uuid also needed
+
+4. Verify payment
+   # if we pass wrong transID then showing 500 error
+   =>Error :Cannot read properties of null (reading 'payment_status')
+
+Remaining User Portal Work
+
+2. Pending all salons data from backend.
+3. Bookings location icon api pending.
+5. Resedualling part is left in booking history.
+6. In mobile view want to show empty wishlist and empty booking UI.
+7. In mobile view facing issue in salong page not getting image and rating options.
+8. In services page getting data twice.
+9. Slot details for all salons pending integration.
+10. Filter section pending.
+11. In mobile view in rating and review page menubar icon is not at correct position.
+12. Want to integrate search functionality.
+13. Booking confirmation page pending because of payment.
+14. In selected services want to add scroll bar
+15. Booking history location needs to be deleted
+16. Footer section
+17. Adding a new logo
+
+
+Remaining Admin Portal Work
+
+1. Recommanded section.
+
+new tasks -
+
+user booking -
+pending we have to add two button one pay now and second one cancel booking
+after 24 hour we want to delete the pending from the booking history
+
+reject status should be changed to failed state
+
+we have a state - rejected booking
+initiated the refund to customer 
+
+user-portal
+in customer support team
+the slot has been already book
+
+on avtar we want to show total number of booking
+
+Home salon - 
+user authentication
+before asking the confirmation need login
+final form

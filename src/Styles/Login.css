@@ -1,0 +1,289 @@
+.container11 {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.image-section {
+  flex: 1;
+  position: relative;
+}
+
+.image-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../images/rectangle-23.svg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.login-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  z-index: 1;
+}
+
+.topnav-display {
+  position: absolute;
+  right: 0;
+  z-index: 9999;
+}
+
+.login-card {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: #000;
+  animation: slideUp 1s forwards;
+}
+
+.login-card h2 {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.login {
+  font-size: 40px;
+}
+
+.register {
+  color:#FF6548;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#mobileNumber {
+  background: #000;
+  border: 0;
+  color:#FFF;
+  border-bottom: 1px dashed;
+  font-size: 15px;
+  font-weight: 300;
+  width: 320px;
+}
+
+#mobileNumber:focus {
+  outline: none;
+  background-color: #000;
+}
+
+.LoginButton {
+  padding: 0px 60px;
+  background: #FF6548;
+  border-radius: 40px;
+  align-items: center;
+  color:#FFF;
+  font-size: 20px;
+  border: 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.info {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:100%;
+  gap: 10vh;
+}
+
+#mobileNumber::placeholder {
+  color: #FFF;
+}
+
+.hamberger {
+  margin: 10px;
+}
+
+.content {
+display: flex;
+width: 100vw;
+height: 70vh;
+justify-content: center;
+align-items: center;
+color: #FFF;
+}
+
+a {
+text-decoration: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+.inforegister {
+  margin-left: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:100%;
+  gap: 4vh;
+}
+
+
+.checkbox-group {
+  margin-bottom: 10px;
+}
+
+.checkbox-label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.checkbox-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkbox-custom {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2px;
+  height: 16px;
+  width: 16px;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+}
+
+.checkbox-label input:checked ~ .checkbox-custom:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  background-color: #FF6548;
+  border-radius: 50%;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 70px;
+  right: 25px;
+  padding: 10px;
+  border-radius: 4px;
+  z-index:9999;
+}
+
+.dropdownMenu ul {
+  list-style-type: none;
+  padding: 2px 2px;
+  margin: 0;
+  background: #232323;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+  .dropdownMenu ul li {
+      padding: 2px 30px;
+      margin: 0;
+      background: rgba(123, 123, 123, 0.25);
+      border-radius: 20px;
+      margin:10px;
+      text-align: center;
+  }
+
+.dropdownMenu a {
+  color:#FFF;
+  font-weight: 700;    
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.otp-boxes {
+  display: flex;
+  gap:20px;
+}
+.otp-boxes input {
+  width: 37px;
+  font-size: 28px;
+  padding:5px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 2px;
+  border: 0;
+  background: #FFF;
+  font-weight: 700;
+  color: #000;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container11 {
+    flex-direction: column;
+  }
+  .info {
+    margin: 0;
+    padding: 20px;
+  }
+  .inforegister {
+    margin: 0;
+    padding: 20px;
+  }
+  #mobileNumber {
+    font-size: 15px;
+    background-color: #000;
+  }
+  .info {
+    gap: 2vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .container11 {
+    flex-direction: column;
+  }
+
+  .login-section {
+    align-items: flex-start;
+    border-radius: 20px;
+  }
+
+  .login-card {
+      width: 100%;
+      padding: 20px;
+      background-color: #000;
+      border-radius: 35px 35px 0 0;
+      animation: slideUp 1s forwards;
+      position: relative;
+      top : -30px;
+    }
+
+}

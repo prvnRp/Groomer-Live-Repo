@@ -1,0 +1,3120 @@
+body {
+  color: #fff;
+  overflow-x: hidden;
+  /* font-size: 40px; */
+}
+
+.youtubeLink{
+  border: 3px solid transparent; 
+  border-image: linear-gradient(to right, #ff8a00, #e52e71);
+  border-image-slice: 1;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 200px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 105%;
+  left: 50%;
+  margin-left: -150px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.parentSearchBox {
+  position: relative;
+}
+
+.search-box {
+  width: 219px;
+  color: white;
+  position: absolute;
+  top: 40px;
+  right: 5px;
+  border-radius: 10px;
+  background-color: #525252;
+  /* opacity: 0.6; */
+  font-size: 0.7em;
+  text-align: left;
+  padding-left: 7px;
+}
+
+.fontFamily {
+  background: rgba(44, 44, 44, 0.75);
+  border-radius: 20px;
+  padding:2px 6px 4px 9px;;
+  margin-right: 7px;
+}
+
+.empty {
+  width: 100%;
+  color: red;
+  background: #2c2c2c;
+  border-radius: 10px;
+  font-size: 0.8em;
+  padding-left: 10px;
+}
+
+.confirmedImage {
+  height: 330px;
+}
+
+.salon-button {
+  padding: 8px 45px;
+  background-color: #ff6548;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.booking-button {
+  padding: 8px 40px;
+  background-color: #ff6548;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.gotoPage {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.serviceScroll {
+  width: 100%;
+  height: 100px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.finalPrice {
+  width: 100%;
+  border-top: 1px solid white;
+}
+
+.totalAmount {
+  position: relative;
+  left: -175px;
+  top: -23px;
+}
+
+.writeReviewBtn {
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 46  px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #ff6548;
+  font-weight: 500;
+  padding: 1px 12px;
+  cursor: pointer;
+  border: none;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviewSection {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* registration start */
+.registerContainer {
+  width: 100%;
+}
+
+.Number {
+  background-color: black;
+}
+
+.accountMenu {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.accountMenu svg {
+  font-size: 1.5em;
+  color: black!;
+}
+
+.registerRow {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.resgisterCol {
+  width: 50%;
+}
+
+
+
+.RegisterButton {
+  padding: 5px 60px;
+  background: #ff6548;
+  border-radius: 40px;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+  border: 0;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.registerImage {
+  width: 100%;
+  height: 100vh;
+}
+
+.registerLogo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* registration ends*/
+
+.carousel-cell {
+  width: 80%;
+  /* height: 200px; */
+  margin-right: 250px;
+  /* background: #8C8; */
+  border-radius: 5px;
+  /* counter-increment: gallery-cell; */
+}
+
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.SalonRatings {
+  font-size: 80px;
+  margin-right: 5px;
+}
+
+.flickity-page-dot {
+  display: none !important;
+}
+
+.flickity-prev-next-button {
+  display: none;
+}
+
+.customCarousel .flickity-page-dots {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .desktopView {
+    display: none;
+  }
+
+  .tooltip {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 90%;
+    left: 50%;
+    margin-left: -105px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 25px;
+  }
+
+  .carousel-cell {
+    margin-right: 16px;
+  }
+
+  .confirmedImage {
+    height: 250px;
+  }
+
+  .salon-button {
+    background-color: #ff6548;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+  .booking-button {
+    background-color: #ff6548;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 10px;
+  }
+
+  .totalAmount {
+    position: relative;
+    left: -123px;
+    top: -22px;
+  }
+
+  .star-rating {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+
+  .accountMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    border-radius: 50%;
+  }
+
+  .accountMenu svg {
+    font-size: 1rem;
+    color: black;
+    margin-top: 2px;
+  }
+
+  .search {
+    position: fixed;
+    top: 29px;
+    left: 67px;
+    right: 140px;
+    width: 143px;
+  }
+
+  .flickity-page-dot {
+    display: block !important;
+    width: 60px !important;
+    border-radius: 25px !important;
+  }
+  .flickity-page-dot:focus {
+    outline: none;
+    box-shadow: none !important;
+  }
+
+  .flickity-page-dot:nth-child(1) {
+    background: #ff6548;
+  }
+
+  .flickity-page-dot.is-selected:nth-child(1) {
+    background: #ff6548;
+  }
+
+  .flickity-page-dot:nth-child(2) {
+    background: #b4a9f7;
+  }
+
+  .flickity-page-dot.is-selected:nth-child(2) {
+    background: #b4a9f7;
+  }
+
+  .flickity-page-dot:nth-child(3) {
+    background: #df7af2;
+  }
+
+  .flickity-page-dot.is-selected:nth-child(3) {
+    background: #df7af2;
+  }
+}
+
+#arrowww {
+  position: absolute;
+  font-size: 1em;
+  /* margin-left: 40px; */
+  animation: arrow 2s infinite ease;
+  -webkit-animation: arrowww 2s infinite ease;
+  -moz-animation: arrowww 2s infinite ease;
+  -o-animation: arrowww 2s infinite ease;
+}
+@keyframes arrowww {
+  0% {
+    margin-left: 10px;
+  }
+  50% {
+    margin-left: 25px;
+  }
+  100% {
+    margin-left: 10px;
+  }
+}
+@-webkit-keyframes arrowww {
+  0% {
+    margin-left: 40px;
+  }
+  50% {
+    margin-left: 30px;
+  }
+  100% {
+    margin-left: 40px;
+  }
+}
+@-moz-keyframes arrowww {
+  0% {
+    margin-left: 40px;
+  }
+  50% {
+    margin-left: 30px;
+  }
+  100% {
+    margin-left: 40px;
+  }
+}
+@-o-keyframes arrowww {
+  0% {
+    margin-left: 40px;
+  }
+  50% {
+    margin-left: 30px;
+  }
+  100% {
+    margin-left: 40px;
+  }
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 10px;
+  width: 60px;
+  position: relative;
+  border-radius: 14px;
+  /* border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px; */
+  top: 60px;
+  /* background-color: #b4a9f7 !important; */
+}
+
+input:focus {
+  outline: none;
+}
+/* Full brightness */
+.banner-full-brightness {
+  background-color: rgba(0, 0, 0, 1); /* 100% opacity (full brightness) */
+}
+
+/* 25% brightness */
+.banner-low-brightness {
+  background-color: rgba(0, 0, 0, 0.25); /* 25% opacity (low brightness) */
+}
+
+.topNav {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-right: 40px;
+  gap: 10px;
+}
+.container-about {
+  display: flex;
+  width: 100vw;
+  /* height:100vh; */
+  flex-direction: column;
+}
+
+.bg-image-about {
+  background-image: url(./images/rectangle-1.svg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto;
+  /* flex: 1; */
+  /* height:70vh; */
+  width: 100%;
+}
+
+.reschedule {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.reschedule-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 15vw;
+  /* margin: 0 15vw; */
+}
+
+.button-cancel {
+  background: #ff6548;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 80px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+.button-bookpage {
+  background: #ff6548;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 80px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+.button-reschedule {
+  background: #676767;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 80px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+  padding: 5vh 6vw;
+}
+
+.contact-form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 6vh;
+  padding: 0 4vw;
+}
+
+.content-about {
+  flex: 1;
+  width: 100%;
+  overflow: auto;
+}
+
+.info-about {
+  margin: 5vh 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 1vh;
+}
+
+.para {
+  /* margin: 0 10vw; */
+  margin-left: 15vw;
+  margin-right: 0vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.image-about {
+  transform: scale(1);
+}
+
+textarea::placeholder {
+  color: #fff;
+  /* font-size: 20px; */
+  /* font-weight: 300; */
+  font-family: "Poppins", sans-serif;
+}
+
+textarea {
+  border: 0;
+  color: #fff;
+  font-size: 25px;
+  border-bottom: 1px dashed;
+  font-family: "Poppins", sans-serif;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.search {
+  padding: 5px 25px;
+  border: 0;
+  border-radius: 40px;
+  z-index: 9999;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  /* opacity: 0.6; */
+}
+
+.search:focus {
+  outline: none;
+}
+
+.search input {
+  padding: 5px;
+}
+
+/* styles.css */
+
+body {
+  background: #000;
+}
+
+.top-image-container {
+  position: relative;
+}
+
+.top-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.top-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.login {
+  font-size: 90px;
+}
+
+.top-logo {
+  position: absolute;
+  top: 0;
+}
+
+/* Add the popup-wishlist and popup-content-wishlist CSS classes */
+.popup-wishlist {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  /* Set the height of the popup */
+  text-align: center;
+  font-size: 18px;
+  z-index: 9999;
+  /* Set a higher z-index to ensure the popup appears on top of other elements */
+}
+
+.setWishList{
+  position: relative;
+  top: 0px;
+  right: 0px;
+}
+
+.wishlistmessage {
+  background: #ff6548;
+  color: #ffffff;
+  padding: 10px 30px;
+  border-radius: 25px;
+}
+
+.popup-content-wishlist {
+  padding: 5px;
+}
+
+/* styles.css */
+.square-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  --card-size: 280px;
+  /* Define the fixed width and height for the card */
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fit, minmax(var(--card-size), 1fr)); */
+  gap: 20px;
+  /* max-width: 100%; */
+  /* margin: 0 auto; */
+  background: #000;
+  padding: 20px;
+}
+
+.square-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: white;
+  width: var(--card-size);
+  /* Set the width to the defined variable */
+  height: var(--card-size);
+  /* Set the height to the defined variable */
+  border-radius: 45px;
+  background: rgba(74, 74, 74, 0.5);
+  color: #fff;
+  overflow: hidden;
+  padding: 6px;
+  margin-left: 10px;
+  /* font-size: 20px; */
+  /* font-weight: bold; */
+}
+
+.card {
+  width: 300px;
+  height: 200px;
+  background-color: #f0f0f0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+
+.card.left {
+  transform: translate(-80%, -50%);
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 72vh;
+  margin: 0 4vw;
+}
+
+.banner {
+  /* background: #FF6548; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80vw;
+  height: 55vh;
+  margin: 4vw 0;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* padding: 6vh 10vw; */
+  border-radius: 290px;
+}
+.banner img {
+  transform: scale(0.9);
+}
+
+.left-arrow {
+  background: #fff;
+  border-radius: 50%;
+  padding: 0 10px;
+  font-size: 30px;
+  color: #000;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+.one-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.socialMedia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.homeImages {
+  width: 50%;
+}
+
+.best-salon-card {
+  /* Existing styles for the review card */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* Adjust width and margin to create a responsive grid layout */
+  width: calc(45% - 10px);
+  /* Two cards per row, with a 10px margin between them */
+  margin-bottom: 20px;
+  /* Add some spacing between cards */
+  /* background: rgba(109, 109, 109, 0.50); */
+  border-radius: 10px;
+  padding: 15px;
+  margin-left: 20px;
+  transition: transform 0.3s ease;
+
+  /* Media query for one card per row on smaller screens */
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+}
+
+.home-services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 8vw;
+  gap: 5vw;
+}
+
+.button-salon-book button {
+  background: #ff6548;
+  border: 0;
+  padding: 0px 50px;
+  color: #fff;
+  border-radius: 38px;
+  font-size: 30px;
+}
+
+.button-salon-book {
+  text-align: right;
+}
+@media only screen and (min-width: 600px) {
+  .best-salon-card :hover {
+    transform: scale(1.1);
+  }
+
+}
+
+.best-salon-text {
+  pointer-events: none;
+}
+
+.content12 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 10vh;
+  gap: 50px;
+  /* justify-content: space-between; */
+}
+
+.scroll-symbol {
+  /* margin-bottom: 20px; */
+  /* transform: scale(0.5); */
+  position: fixed;
+  display: flex;
+  left: 22%;
+  bottom: 0;
+}
+
+.explore-button {
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+
+.explore-button button {
+  background: #ff6548;
+  border: 0;
+  color: #fff;
+  padding: 0px 40px;
+  border-radius: 25px;
+  font-size: 30px;
+}
+
+.best-salons {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background: #1e1e1e;
+  border-radius: 50px;
+  margin: 6vw;
+}
+
+.best-salon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.text-salon {
+  padding: 20px 5vw;
+  font-size: 40px;
+}
+
+/* Media query for adjusting the spacing between cards based on screen size */
+@media (max-width: 767px) {
+  .square-cards-container {
+    gap: 10px;
+    /* Adjust the gap value for smaller screens */
+    padding: 5px;
+    padding-right: 0px;
+  }
+
+  .writeReviewBtn {
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background: #ff6548;
+    font-weight: 500;
+    padding: 1px 12px;
+    cursor: pointer;
+  }
+
+  .footerFont {
+    font-size: 0.5em;
+    margin: 5px;
+  }
+}
+
+/* styles.css */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination .pagebutton {
+  margin: 0 5px;
+  padding: 0px 30px;
+  /* border: 1px solid #ccc; */
+  background-color: rgba(89, 89, 89, 0.25);
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #3c3c3c;
+  color: #fff;
+}
+
+/* styles.css */
+.square-cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  /* Set fixed width */
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  background: rgba(30, 30, 30, 0.5);
+  border-radius: 45px;
+  padding: 20px;
+}
+
+.empty-space {
+  width: 300px;
+  /* Set fixed width */
+  height: 300px;
+  /* Set fixed height */
+  background-color: transparent;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* .pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+} */
+/* 
+.pagination button.active {
+  background-color: black;
+  color: white;
+} */
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  /* border-radius: 30px; */
+  margin: 10px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+  height: 125px;
+}
+
+.card-image {
+  width: 100%;
+  /* height: 100%; */
+  /* object-fit: cover; */
+  /* object-position: center; */
+  border-radius: 20px;
+}
+
+.card-details {
+  text-align: left;
+  margin: 15px;
+  margin-top: 0px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.navbutton {
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.filter-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  /* Set a high z-index to make it appear over other items */
+}
+
+/* .filter-popup.open {
+  display: flex;
+} */
+
+.filter-popup-content {
+  display: flex;
+  flex-direction: row;
+  /* gap:50px; */
+  /* background-color: #fff; */
+  /* padding: 20px; */
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  /* max-width: 600px; */
+  /* width: 90%; */
+}
+
+/* Rest of your custom styling for the popup */
+/* Same as previous CSS */
+
+.filter-section {
+  padding-right: 100px;
+  border-right: 1px solid #ff6548;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sort-section {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sort-button {
+  background-color: transparent;
+  /* border: 1px solid #ddd; */
+  padding: 2px 0px;
+  /* border-radius: 4px; */
+  border: 0;
+  color: #fff;
+  text-align: left;
+  cursor: pointer;
+}
+
+.sort-order {
+  background: #ff6548;
+  border: 0;
+  color: #fff;
+  padding: 0px 17px 5px 17px;
+  border-radius: 12px;
+}
+
+.sort-button.active {
+  /* background-color: #f2f2f2; */
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #ff6548;
+}
+
+.filter-sort {
+  position: relative;
+  /* white-space: nowrap; */
+}
+
+.filter-sort .filter-sort-popup {
+  /* Position the popup below the "Filter & sort" button */
+  position: absolute;
+  top: 100%;
+  left: -6px;
+  z-index: 50;
+  background: #0f0f0f;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 25px;
+  padding: 20px;
+  /* Add other styles like background color, box-shadow, etc. to style the popup */
+  /* ... */
+}
+
+.upnav {
+  padding: 0vw 10vw;
+  margin: 0 10px;
+}
+
+.upnav .buttonapply {
+  background: #ff6548;
+  border: 0;
+  /* width: 8vw; */
+  padding: 0px 15px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Add this to your CSS file */
+
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+  min-width: 130px;
+}
+
+.dropdown-selected {
+  /* background-color: #f5f5f5; */
+  color: #fff;
+  padding: 3px;
+  /* text-align: right; */
+  /* border-radius: 20px; */
+  /* border: 1px solid #ccc; */
+  /* outline: none; */
+  /* min-width: 120px; */
+  /* cursor: pointer; */
+  font-size: 14px;
+}
+
+.dropdown-options {
+  position: absolute;
+  /* top: 100%; */
+  top: 0px;
+  left: 0;
+  width: 100%;
+  /* max-height: 200px; */
+  overflow-y: auto;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  /* Rounded border for the dropdown options */
+  background: #525252;
+  color: #fff;
+  padding: 5px;
+  z-index: 1;
+}
+
+.location-options {
+  position: absolute;
+  top: 100%;
+  /* top: 0px; */
+  left: 0;
+  width: 100%;
+  /* max-height: 200px; */
+  overflow-y: auto;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  /* Rounded border for the dropdown options */
+  background: #525252;
+  color: #fff;
+  padding: 5px;
+  z-index: 1;
+}
+
+.dropdown-option {
+  padding: 2px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background: rgba(44, 44, 44, 0.75);
+  border-radius: 25px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.dropdown-option.selected {
+  background: rgba(44, 44, 44, 0.75);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+  padding: 2px 10px;
+  color: #fff;
+  font-size: 0.7em;
+  /* Change to the desired color */
+}
+
+.dropdown-option.notselected {
+  padding: 2px 10px;
+  font-size: 0.7em;
+}
+
+.arrow {
+  border: solid #ff6548;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 5px;
+  cursor: pointer;
+  /* margin-left: 5px; */
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.datepicker-container ::placeholder {
+  font-size: 12px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  position: relative;
+  top: 6px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.time-picker-container {
+  position: relative;
+}
+
+.time-picker-input {
+  display: inline-flex;
+  align-items: center;
+}
+
+.time-picker-input input {
+  padding: 8px;
+}
+
+.time-picker-icon {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.time-picker-input input {
+  background: transparent;
+  padding: 0px;
+  border: none;
+  color: #fff;
+  width: 80px;
+  font-size: 15px;
+}
+
+.time-picker-input input:focus {
+  outline: none;
+}
+
+.time-picker-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 150px;
+  height: 280px;
+  background-color: #383838;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align: center;
+  z-index: 9999;
+}
+
+.time-picker-partitions {
+  display: flex;
+  flex-direction: row;
+}
+
+.picker-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.picker-column div {
+  cursor: pointer;
+  padding: 5px;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.scrollable {
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.time-picker-ok-btn {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  /* Add margin between the partitions and the button */
+  /* align-self: flex-end; */
+  padding-top: 5px;
+  padding-bottom: 2px;
+
+  background-color: rgba(138, 136, 136, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.time-picker-ok-btn:hover {
+  background-color: rgba(26, 26, 26, 0.5);
+}
+
+/* Adjust the height of each partition to make them equal */
+.picker-column {
+  height: 220px;
+}
+
+/* Remove border-bottom for the last item in each partition */
+.picker-column div:last-child {
+  border-bottom: none;
+}
+
+/* Add a class to represent the selected item in each partition */
+.picker-column div.selected {
+  background-color: rgba(26, 26, 26, 0.5);
+  color: #fff;
+}
+
+.location-conatiner {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  text-align: left;
+}
+
+.price input {
+  background: #2c2c2c;
+  border-radius: 25px;
+  border: 0;
+  width: 50px;
+  text-align: center;
+  /* margin:10px; */
+  color: #fff;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.salon-address {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  /* width: 60%; */
+}
+
+/* Add this CSS in your App.css or create a new CSS file and import it in SalonPage.js */
+.custom-tooltip {
+  position: relative;
+  /* display: inline-block; */
+  margin-right: 0px;
+}
+
+.tooltip-text {
+  position: absolute;
+  width: 100%;
+  bottom: 100%;
+  left: 64%;
+  transform: translateX(-50%);
+  background: rgba(46, 46, 46, 0.9);
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.custom-tooltip:hover .tooltip-text {
+  opacity: 1;
+  visibility: visible;
+  font-size: 0.7em;
+  padding: 5px;
+}
+
+.address1 {
+  width: 70%;
+}
+
+.actions button {
+  background: #ff6548;
+  border: 0;
+  padding: 2px 15px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 2vw;
+}
+
+.card-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.cards-container {
+  display: flex;
+  width: 300px;
+  /* Set the width as per your card's width */
+  height: 200px;
+  /* Set the height as per your card's height */
+  overflow: hidden;
+  position: relative;
+}
+
+.card-content {
+  flex: 1;
+  margin: 10px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-from-left {
+  transform: translateX(-100%);
+}
+
+.slide-from-right {
+  transform: translateX(100%);
+}
+
+.slide-to-left {
+  transform: translateX(100%);
+}
+
+.slide-to-right {
+  transform: translateX(-100%);
+}
+
+/* Add this to your CSS file or use inline styles */
+
+/* Add this to your CSS file */
+
+.salon-page {
+  display: flex;
+  color: #fff;
+  padding: 10px;
+  /* padding-top: 100px; */
+}
+
+.small-images {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 2vw;
+  /* Add some spacing between small images and the big image */
+  overflow-y: auto;
+  /* Enable vertical scrolling if necessary */
+  max-height: 80vh;
+  margin-left: 1vw;
+}
+
+.small-image {
+  width: 80px;
+  /* Adjust the width of small images as desired */
+  height: 136px;
+  object-fit: cover;
+  margin: 5px 5px;
+  /* Add some vertical margin between small images */
+  border-radius: 25px;
+  /* margin: 10px; */
+}
+
+.big-image-and-details {
+  display: grid;
+  grid-template-columns: 0.55fr 0.45fr;
+  /* Divide the available space into two columns */
+  gap: 20px;
+  /* Add some spacing between big image and details */
+  flex: 1;
+  /* Allow the grid container to take the remaining space */
+}
+
+.salon-big-image {
+  display: flex;
+  /* Add display flex to center the image */
+  /* align-items: center; */
+  height: 50vh;
+}
+
+.salon-big-image img {
+  width: 100%;
+  /* Make sure the big image takes up the full width of its container */
+  height: 80vh;
+  object-fit: cover;
+  border-radius: 55px;
+  border: 2px solid #fff;
+}
+
+.salon-details {
+  display: flex;
+  flex-direction: column;
+  height: 79vh;
+  overflow-y: auto;
+  margin: 2px;
+  margin-right: 0px;
+}
+
+
+
+@media (max-width: 1096px) {
+  .star-rating {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+}
+
+/* For responsiveness, you can use media queries to adjust the layout for different screen sizes */
+@media (max-width: 768px) {
+  .salon-page {
+    flex-direction: column;
+    /* On small screens, switch to a vertical layout */
+  }
+
+  .search-box {
+    width: 125px;
+    /* background-color: white; */
+    /* color: black; */
+    position: absolute;
+    top: 36px;
+    right: -10px;
+    border-radius: 10px;
+  }
+
+  .writeReviewBtn {
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 88px;
+    margin-bottom: 20px;
+    color: white;
+    background: #ff6548;
+    font-weight: 500;
+    /* padding: 1px 12px; */
+    cursor: pointer;
+  }
+
+  .small-images {
+    align-items: center;
+    /* Center small images on small screens */
+    margin-right: 0;
+    /* Remove margin on small screens */
+  }
+
+  .small-image {
+    margin: 5px;
+    /* Adjust margin on small screens */
+  }
+
+  .big-image-and-details {
+    grid-template-columns: 1fr;
+    /* On small screens, show the big image and details in a single column */
+    gap: 0;
+    /* Remove gap on small screens */
+  }
+
+  .salon-details {
+    margin-top: 20px;
+    /* Add some spacing between big image and details on small screens */
+  }
+}
+
+.small-images ::-webkit-scrollbar {
+  width: 5px;
+}
+
+.small-images ::-webkit-scrollbar-track {
+  background: #1a1717;
+  border-radius: 25px;
+}
+
+.small-images ::-webkit-scrollbar-thumb {
+  background: #757575;
+  /* border: 1px solid #757575; */
+  border-radius: 25px;
+}
+
+/* Your existing CSS styles... */
+
+/* Add the following CSS styles for the navigation options */
+.nav-options {
+  display: flex;
+  justify-content: center;
+  /* width: 50%; */
+  gap: 70px;
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.nav {
+  background-color: transparent;
+  color: #fff;
+  /* padding: 8px 16px; */
+  border: none;
+  /* border-radius: 4px; */
+  /* margin-right: 8px; */
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.selected-nav {
+  background-color: transparent;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-bottom: 2px solid #ff6548;
+  /* padding: 8px 16px; */
+  /* border: none; */
+  /* border-radius: 4px; */
+  /* margin-right: 8px; */
+  cursor: pointer;
+}
+
+/* Your existing CSS styles... */
+/* Add this CSS to your existing styles or CSS file */
+/* .ratings-reviews { */
+/* Existing styles for the ratings and reviews section */
+
+/* Add Flexbox for a responsive grid layout */
+/* display: block; */
+/* flex-wrap: wrap; */
+/* justify-content: space-between; */
+/* margin-right: 20px; */
+/* } */
+
+.ratings-reviews { 
+display: flex;
+/* flex-direction: column; */
+flex-wrap: wrap;
+justify-content:space-around;
+}
+
+.reviewHamburger{
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+/* .reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+.review-card {
+  /* Existing styles for the review card */
+
+  /* Adjust width and margin to create a responsive grid layout */
+  width: calc(45% - 10px);
+  /* Two cards per row, with a 10px margin between them */
+  margin-bottom: 20px;
+  /* Add some spacing between cards */
+  background: rgba(109, 109, 109, 0.5);
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 35px;
+
+  /* Media query for one card per row on smaller screens */
+  /* @media (max-width: 1200px) {
+    width: 100%;
+  } */
+}
+
+u{
+  text-decoration: none;
+}
+
+.showmore {
+  background: #ff6548;
+  border: 0;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8em;
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+.ratings-review{
+  /* width: 50%; */
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+/* Add this to your App.css or create a new CSS file */
+.salon-name-wrapper {
+  position: sticky;
+  top: 0;
+  left: -29px;
+  background-color: #000;
+  z-index: 1;
+  /* Make sure it's above other elements, if necessary */
+}
+
+.salon-wrapper1 {
+  position: sticky;
+  bottom: -1px;
+  background-color: #000;
+  z-index: 1;
+}
+
+.info-guide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* margin: 10px; */
+  /* margin: 35px; */
+  margin: 40px 20px;
+  margin-right: 25px;
+}
+
+.salon-name {
+  font-size: 25px;
+  /* position: relative; */
+  /* left: -29px; */
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.salon-description {
+  background: rgba(109, 109, 109, 0.5);
+  border-radius: 20px;
+  padding: 8px;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+.show-more {
+  font-weight: 700;
+  cursor: pointer;
+  float: right;
+}
+
+.description-text {
+  margin: 5px 0;
+}
+
+.book-button {
+  background: #ff6548;
+  color: #fff;
+  font-weight: bold;
+  border: 0;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding: 5px 10vw;
+  border-radius: 25px;
+  font-size: 20px;
+  /* margin: 5px; */
+}
+
+.button-reschedule {
+  background: #676767;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 80px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Add these styles at the end of your existing CSS file or create a new one */
+
+/* Add these styles at the end of your existing CSS file or create a new one */
+
+/* Popup styles */
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  /* Position the popup on the right side */
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: flex-end;
+  /* Align the content to the right side */
+  align-items: center;
+  width: 100%;
+  opacity: 0;
+  /* Initially, the popup is hidden */
+  visibility: hidden;
+  /* Initially, the popup is hidden */
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  /* Add transition for smooth animation */
+  z-index: 9999;
+}
+
+.popup-content {
+  background-color: #232323;
+  color: #fff;
+  /* padding: 20px; */
+  width: 45%;
+  height: 100%;
+  border-radius: 50px;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  animation: slideInRight 0.3s ease-in-out;
+  /* Add animation for sliding in from the right side */
+}
+
+@keyframes slideInRight {
+  from {
+    right: -100%;
+    /* Start position (completely off the screen) */
+  }
+
+  to {
+    right: 0;
+    /* End position (aligned to the right side) */
+  }
+}
+
+/* Additional styles for the services list inside the popup */
+
+/* Add class to show the popup */
+.popup-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.info-services {
+  width: 80%;
+}
+
+.popupContent table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 12px;
+  margin-bottom: 16px;
+}
+
+#book th,
+td {
+  padding: 2px;
+  text-align: left;
+  /* font-weight: 700; */
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.added-button {
+  padding: 2px 16px;
+  background-color: #ff6548;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 90px;
+}
+
+.popupContent {
+  margin-top: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-button {
+  padding: 8px 45px;
+  background-color: #ff6548;
+  color: white;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 15px;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+
+/* #servicesSelected tr:last-child td { */
+/* Apply styles to the last row's cells */
+/* border-top: 1px solid #fff; */
+/* padding-top: 20px; */
+/* } */
+
+/* #book tr:nth-last-child(-n+2) td {
+  padding-bottom: 20px;
+} */
+
+#book td:first-child {
+  border-top-left-radius: 11px;
+  border-bottom-left-radius: 11px;
+}
+
+#book td:last-child {
+  border-bottom-right-radius: 11px;
+  border-top-right-radius: 11px;
+}
+
+/* #servicesSelected tr:nth-last-child(-n + 2) td { */
+/* Apply styles to all rows except the last two rows' cells */
+/* padding-bottom: 20px; */
+/* Add vertical space (padding) to all rows except the last two */
+/* } */
+
+.services-h {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+
+.select-wrapper select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  color: #fff;
+  border: 0;
+  /* padding: 0px 10px; */
+  border-radius: 4px;
+}
+
+.select-wrapper {
+  margin-left: 18px;
+}
+
+.select-wrapper span {
+  color: white;
+  padding: 5px;
+}
+
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heart-wishlist {
+  font-size: 35px !important;
+}
+
+.imageInratings {
+  /* width: 20px; */
+  /* height: 20px; */
+  margin-right: 5px;
+  background: #000;
+  padding: 20px 25px;
+  font-size: large;
+  border-radius: 50%;
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 15px;
+}
+
+.pcontent input {
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: 0;
+  background: url(images/search1.svg) no-repeat scroll;
+  background-color: #fff;
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.pcontent input:focus {
+  outline: none;
+}
+
+/* .hamburger-background {
+  background-color:#FFF;
+  
+  
+} */
+
+.custom-date-dropdown {
+  position: absolute;
+  top: 100%;
+  /* Adjust this value to control the vertical position */
+  left: 0;
+  background-color: #525252;
+  border-radius: 15px;
+  font-size: 15px;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.complete-time-dropdown .selected {
+  background: rgba(35, 35, 35, 0.5);
+  border-radius: 15px;
+}
+
+.time-picker-complete-option {
+  padding: 0px 5px;
+}
+
+.time-picker-complete-option:hover {
+  background: rgba(35, 35, 35, 0.5);
+  border-radius: 15px;
+}
+
+.custom-date-dropdown .selected {
+  background: rgba(35, 35, 35, 0.5);
+  border-radius: 25px;
+}
+
+.custom-date-option {
+  padding: 2px 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.custom-date-option:hover {
+  background-color: rgba(35, 35, 35, 0.5);
+  border-radius: 25px;
+}
+
+.rating-card {
+  background: #1e1e1e;
+  border-radius: 40px;
+  padding: 30px 40px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.detailsuser input {
+  background: #232323;
+  border: 0;
+  color: #fff;
+  width: 244px;
+  /* width: 247px; */
+}
+
+.detailsuser input:focus {
+  outline: none;
+}
+
+.locationdropdown {
+  text-align: right;
+}
+
+.locationdropdown input {
+  padding: 4px 0px;
+  border-radius: 25px;
+  border: 0;
+  background: url(images/search1.svg) no-repeat scroll;
+  background-color: #fff;
+  padding-left: 30px;
+  font-size: 12px;
+  min-width: 8vw;
+  /* margin-bottom: 10px; */
+}
+
+.multiDropdown input {
+  padding: 5px 1px;
+  border-radius: 25px;
+  border: 0;
+  background: url(images/search.svg) no-repeat scroll;
+  background-color: #2c2c2c;
+  padding-left: 30px;
+  font-size: 12px;
+  min-width: 8vw;
+}
+
+.locationdropdown input:focus {
+  outline: none;
+}
+
+.payment {
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 35px;
+  padding: 15px 40px;
+}
+
+.combo-services {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 10px 20px;
+  margin-left: 0px;
+}
+
+.combo-list {
+  margin-right: 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.combo-services-details {
+  background: #373737;
+  border-radius: 20px;
+  padding: 20px;
+  /* padding-left:4vw; */
+  /* padding-right: 2vw; */
+}
+
+.info-nav {
+  margin-top: 2vw;
+  font-size: 25px;
+}
+
+.MobileView {
+  display: none;
+}
+
+.mobileView11 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .search-icon {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+
+  /* .reviewHamburger{
+    position: "";
+     top: "8px";
+      right: "6px";
+  } */
+
+  .ratings-review {
+    display: block;
+  }
+
+  .reschedule-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 15vw;
+    /* margin: 0 15vw; */
+  }
+
+  .search {
+    position: fixed;
+    top: 29px;
+    right: 140px;
+    width: 140px;
+  }
+
+  .combo-services {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .combo-list {
+    margin-right: 0vw;
+  }
+
+  .combo-services-details {
+    padding: 20px;
+  }
+
+  .info-nav {
+    margin-top: 2vw;
+    font-size: 20px;
+  }
+
+  .filter-popup-content {
+    flex-direction: column;
+  }
+
+  .sort-section {
+    padding-left: 0px;
+  }
+
+  .filter-section {
+    padding-left: 0px;
+    border: 0;
+    width: 295px;
+  }
+
+  .login {
+    font-size: 40px;
+  }
+
+  .centered-text {
+    font-size: 60px;
+    /* font-size: (1rem, 2vw + 0.75rem, 1.5rem); */
+    font-weight: 500;
+  }
+
+  .topNav {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 20px;
+    gap: 10px;
+  }
+
+  .Mobile {
+    font-size: 15px;
+  }
+
+  .small-images {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .salon-details {
+    height: auto;
+  }
+
+  .small-image {
+    width: 90px;
+    /* Adjust the width of small images as desired */
+    height: 60px;
+    border-radius: 20px;
+    /* margin: 10px; */
+  }
+
+  .salon-big-image {
+    /* display: flex; Add display flex to center the image */
+    /* align-items: center; */
+    display: flex;
+    height: 50vh;
+  }
+
+  .salon-big-image img {
+    width: 100%;
+    /* Make sure the big image takes up the full width of its container */
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 55px;
+    border: 2px solid #fff;
+  }
+
+  .info-guide {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+  }
+
+  .review-card {
+    /* Existing styles for the review card */
+
+    /* Adjust width and margin to create a responsive grid layout */
+    margin-top: 10px;
+    width: calc(45% - 10px);
+    /* Two cards per row, with a 10px margin between them */
+    margin-bottom: 20px;
+    /* Add some spacing between cards */
+    background: rgba(109, 109, 109, 0.5);
+    border-radius: 20px;
+    padding: 15px;
+
+    /* Media query for one card per row on smaller screens */
+    @media (max-width: 500px) {
+      width: 100%;
+      /* One card per row */
+    }
+  }
+
+  .popup-content {
+    background-color: #232323;
+    color: #fff;
+    /* padding: 20px; */
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    animation: slideInRight 0.3s ease-in-out;
+    /* Add animation for sliding in from the right side */
+  }
+
+  .popup-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+  }
+}
+
+.f55 {
+  font-size: 55px;
+}
+
+.f30 {
+  font-size: 30px;
+}
+
+.f40 {
+  font-size: 40px;
+}
+
+.f18 {
+  font-size: 18px;
+}
+
+.f35 {
+  font-size: 35px;
+}
+
+.f70 {
+  font-size: 70px;
+}
+
+.f40 {
+  font-size: 40px;
+}
+
+.f20 {
+  font-size: 20px;
+}
+
+.header-info {
+  width: 100%;
+  flex-direction: row;
+  /* display: flex; */
+  justify-content: space-around;
+  background: rgba(173, 173, 173, 0.2);
+  padding: 50px;
+  gap: 15vw;
+  padding-right: 12vw;
+  padding-left: 8vw;
+  margin-top: 100px;
+}
+
+.row-12 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.down-content {
+  background: #fff;
+  padding: 10px 10px;
+  color: #000;
+  border-radius: 25px;
+  width: 80vw;
+  text-align: center;
+  display: none;
+  /* margin: 0 40px; */
+}
+
+.book-now {
+  background: #000;
+  padding: 0px 10px;
+  color: #fff;
+  border-radius: 25px;
+  width: 50vw;
+  text-align: center;
+  display: none;
+  border: 0;
+  font-size: 20px;
+  /* margin: 0 40px; */
+}
+
+.menu-icon {
+  color: #000;
+}
+
+.user-details {
+  margin-left: 40px;
+}
+
+#servicesSelected {
+  width: 70%;
+  height: 5px;
+  overflow-y: scroll;
+}
+
+.close-review {
+  top: 8vw;
+  right: 10vh;
+}
+
+.cancel-image {
+  flex-direction: column;
+}
+
+.money-refund {
+  flex-direction: row;
+}
+
+.termsConditions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.termsandConditions {
+  display: none;
+}
+
+@media screen and (max-width: 1700px) {
+  .banner img {
+    width: 35%;
+    height: auto !important;
+  }
+
+  .homeImages {
+    padding: 50px 0px;
+    width: 50%;
+  }
+
+  .banner {
+    border-radius: 230px;
+  }
+
+  .f40 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .banner {
+    height: 350px;
+    border-radius: 200px;
+  }
+
+  .homeImages {
+    padding: 0px;
+    width: 50%;
+  }
+
+  .banner img {
+    transform: scale(1) !important;
+  }
+
+  .f55 {
+    font-size: 40px;
+  }
+
+  .f30 {
+    font-size: 20px;
+  }
+
+  .f40 {
+    font-size: 30px;
+  }
+
+  .f18 {
+    font-size: 15px;
+  }
+
+  .f35 {
+    font-size: 25px;
+  }
+
+  .f70 {
+    font-size: 60px;
+  }
+
+  .f20 {
+    font-size: 20px;
+  }
+
+  .one-card img {
+    width: 50%;
+  }
+
+  .homeee img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .row-12 {
+    flex-direction: column;
+  }
+
+  .menuBar {
+    cursor: pointer;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  .registerRow {
+    width: 100%;
+    height: 100vh;
+    display: block;
+  }
+
+  .resgisterCol {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .registerImage {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .registerLogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .col-6 {
+    width: 100%;
+  }
+
+  .topNav {
+    margin-top: 30px;
+  }
+
+  .para {
+    margin-left: 0px;
+    font-size: 17px !important;
+  }
+
+  .carousel-control {
+    display: none;
+  }
+
+  .carousel-indicators {
+    display: flex !important;
+    justify-content: space-evenly;
+  }
+
+  .heart-wishlist {
+    font-size: 25px !important;
+  }
+
+  .carousalButton {
+    display: none;
+  }
+
+  .home-services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button-salon-book {
+    text-align: right;
+  }
+
+  .button-salon-book button {
+    font-size: 20px;
+    padding: 0px 30px;
+  }
+
+  .header-info {
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    background: rgba(30, 30, 30, 0.5);
+  }
+
+  .close-review {
+    top: 15vw;
+    right: 5vh;
+  }
+
+  .image-content {
+    display: none;
+  }
+
+  .one-card {
+    flex-direction: column;
+  }
+
+  .one-card img {
+    width: 100%;
+  }
+
+  .content12 {
+    margin: 20px;
+  }
+
+  .f55 {
+    font-size: 45px;
+  }
+
+  .f30 {
+    font-size: 45px;
+  }
+
+  .f18 {
+    font-size: 12px;
+  }
+
+  .f35 {
+    font-size: 20px;
+  }
+
+  .f70 {
+    font-size: 40px;
+  }
+
+  .f40 {
+    font-size: 25px;
+  }
+
+  .f20 {
+    font-size: 18px;
+  }
+
+  .banner img {
+    width: 90%;
+    height: 350px !important;
+  }
+
+  .desktopView {
+    display: none;
+    flex-wrap: wrap;
+  }
+
+  .mobileView11 {
+    display: block;
+  }
+
+  .banner {
+    flex-direction: column;
+    height: auto;
+    border-radius: 60px;
+    /* margin-top: 50px; */
+    justify-content: center;
+    padding: 20px;
+    margin: 0 0;
+    /* text-align: center; */
+  }
+
+  .content-banner {
+    margin: 20px;
+  }
+
+  .down-content {
+    display: block;
+    font-weight: 800;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .book-now {
+    display: block;
+  }
+
+  .text-salon {
+    margin-left: 20px;
+  }
+
+  .salon-groomer {
+    margin-bottom: 2px !important;
+    /* gap : 0 !important; */
+  }
+
+  .scroll-symbol {
+    display: none;
+  }
+
+  .upnav {
+    padding: 0vw 0vw;
+  }
+
+  .pagination {
+    /* display: none; */
+  }
+
+  .image-container {
+    height: 200px;
+  }
+
+  .square-card {
+    width: 280px;
+    height: 350px;
+    /* margin-left: 10px; */
+  }
+
+  .hamburger-background {
+    background: none;
+  }
+
+  .menu-icon {
+    color: #fff;
+    font-size: 35px !important;
+    position: relative;
+    top: -3px;
+  }
+
+  .info-services {
+    width: 90%;
+  }
+
+  #servicesSelected {
+    width: 40%;
+  }
+
+  .rating-card img {
+    width: 50%;
+  }
+
+  .rating-card {
+    margin: 20px;
+  }
+
+  .cancel-image img {
+    width: 100%;
+  }
+
+  .reschedule {
+    font-size: 20px;
+  }
+
+  .money-refund {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+
+  .termsConditions {
+    display: none !important;
+  }
+
+  .termsandConditions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .explore-button {
+    margin: 20px;
+    margin-bottom: 40px;
+  }
+
+  .explore-button button {
+    font-size: 20px;
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .f55 {
+    font-size: 40px;
+  }
+  .f30 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .banner img {
+    width: 90%;
+    height: 300px !important;
+  }
+
+  .banner {
+    flex-direction: column;
+    height: auto;
+    border-radius: 60px;
+    /* margin-top: 50px; */
+    justify-content: center;
+    padding: 20px;
+    margin: 0 0;
+    /* text-align: center; */
+  }
+
+  .f35 {
+    font-size: 20px;
+  }
+
+  .f70 {
+    font-size: 40px;
+  }
+
+  .f40 {
+    font-size: 20px;
+  }
+
+  .f20 {
+    font-size: 15px;
+  }
+
+  .f55 {
+    font-size: 25px;
+  }
+
+  .f30 {
+    font-size: 25px;
+  }
+
+  .f18 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner img {
+    width: 90%;
+    height: 250px !important;
+  }
+
+  .banner {
+    flex-direction: column;
+    height: auto;
+    border-radius: 60px;
+    /* margin-top: 50px; */
+    justify-content: center;
+    padding: 20px;
+    margin: 0 0;
+    /* text-align: center; */
+  }
+
+  .f35 {
+    font-size: 18px;
+  }
+
+  .f70 {
+    font-size: 30px;
+  }
+
+  .f40 {
+    font-size: 18px;
+  }
+
+  .f20 {
+    font-size: 12px;
+  }
+
+  .f55 {
+    font-size: 18px;
+  }
+
+  .f30 {
+    font-size: 18px;
+  }
+
+  .f18 {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .banner img {
+    width: 90%;
+    height: 200px !important;
+  }
+
+  .banner {
+    flex-direction: column;
+    height: auto;
+    border-radius: 60px;
+    /* margin-top: 50px; */
+    justify-content: center;
+    padding: 20px;
+    margin: 0 0;
+    /* text-align: center; */
+  }
+
+  .custom-dropdown {
+    min-width: 100px;
+  }
+
+  .locationdropdown input {
+    width: 125px;
+  }
+
+  .buttonapply {
+    font-size: 15px;
+  }
+
+  .locationdropdown {
+    font-size: 15px;
+  }
+
+  .f40 {
+    font-size: 18px;
+  }
+
+  .f35 {
+    font-size: 18px;
+  }
+
+  .f70 {
+    font-size: 30px;
+  }
+
+  .f40 {
+    font-size: 18px;
+  }
+
+  .f20 {
+    font-size: 10px;
+  }
+
+  .f55 {
+    font-size: 18px;
+  }
+
+  .f30 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .banner img {
+    width: 90%;
+    height: 170px !important;
+  }
+
+  .banner {
+    flex-direction: column;
+    height: auto;
+    border-radius: 60px;
+    /* margin-top: 50px; */
+    justify-content: center;
+    padding: 20px;
+    margin: 0 0;
+    /* text-align: center; */
+  }
+
+  .f40 {
+    font-size: 12px;
+  }
+
+  .f35 {
+    font-size: 15px;
+  }
+
+  .f70 {
+    font-size: 25px;
+  }
+
+  .f20 {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .f40 {
+    font-size: 15px;
+  }
+
+  .f35 {
+    font-size: 15px;
+  }
+
+  .f70 {
+    font-size: 25px;
+  }
+
+  .f40 {
+    font-size: 15px;
+  }
+
+  .f20 {
+    font-size: 10px;
+  }
+
+  .f55 {
+    font-size: 20px;
+  }
+
+  .f30 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .f40 {
+    font-size: 12px;
+  }
+
+  .f35 {
+    font-size: 12px;
+  }
+
+  .f70 {
+    font-size: 20px;
+  }
+
+  .f40 {
+    font-size: 12px;
+  }
+
+  .f20 {
+    font-size: 10px;
+  }
+  .f55 {
+    font-size: 15px;
+  }
+  .f30 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 310px) {
+  .f40 {
+    font-size: 10px;
+  }
+
+  .f35 {
+    font-size: 10px;
+  }
+
+  .f70 {
+    font-size: 15px;
+  }
+
+  .f40 {
+    font-size: 10px;
+  }
+
+  .f20 {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .f55 {
+    font-size: 12px;
+  }
+  .f30 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1701px) {
+  .homeImages{
+    width: 50%;
+    height: 50vh;
+  }
+}

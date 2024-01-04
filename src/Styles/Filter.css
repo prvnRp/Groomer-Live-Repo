@@ -1,0 +1,23 @@
+.filter-services {
+    width: 186px;
+    height: inherit;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.service-box {
+    width: 183px;
+    background: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+}
+
+.pr-23{
+    padding-right: 20px;
+}
+
+.dflex{
+    display: flex;
+    flex-wrap: wrap;
+}

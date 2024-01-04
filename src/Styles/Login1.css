@@ -1,0 +1,232 @@
+body {
+    color: #FFF;
+    background: #000;
+  }
+  
+  .container11 {
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+  }
+  
+  .bg-image { 
+    background-image: url(../images/rectangle-23.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+    flex: 1;
+    height: 100%;
+  }
+  
+  .contentt {
+    flex: 1;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .login {
+    font-size: 40px;
+  }
+  
+  .register {
+    color:#FF6548;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  #mobileNumber {
+    background: #000;
+    border: 0;
+    color:#FFF;
+    border-bottom: 1px dashed;
+    font-size: 25px;
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: 300;
+  }
+  
+  #mobileNumber:focus {
+    outline: none;
+    background-color: #000;
+  }
+  
+  .LoginButton {
+    padding: 8px 60px;
+    background: #FF6548;
+    border-radius: 40px;
+    align-items: center;
+    color:#FFF;
+    font-size: 20px;
+    border: 0;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .info {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    gap: 10vh;
+  }
+  
+  #mobileNumber::placeholder {
+    color: #FFF;
+    /* font-size: 20px; */
+  }
+  
+  .hamberger {
+    /* position: fixed; */
+    /* top: 0; */
+    /* right: 0; */
+    /* float: right; */
+    margin: 10px;
+    /* margin-right:70px; */
+  }
+  
+  .content {
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  }
+  
+  a {
+  text-decoration: none;
+  }
+  
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  }
+  
+  .inforegister {
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    gap: 4vh;
+  }
+  
+  
+  .checkbox-group {
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-label {
+    position: relative;
+    padding-left: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkbox-custom {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 2px;
+    height: 16px;
+    width: 16px;
+    /* background-color: #fff; */
+    border: 3px solid #ccc;
+    border-radius: 50%;
+  }
+  
+  .checkbox-label input:checked ~ .checkbox-custom:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+  
+  .dropdownMenu {
+    position: absolute;
+    top: 70px;
+    right: 25px;
+    /* background: #FFF; */
+    padding: 10px;
+    border-radius: 4px;
+    z-index:9999;
+  }
+  
+  .dropdownMenu ul {
+    list-style-type: none;
+    padding: 2px 2px;
+    margin: 0;
+    background: #232323;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+    .dropdownMenu ul li {
+        padding: 2px 30px;
+        margin: 0;
+        background: rgba(123, 123, 123, 0.25);
+        border-radius: 20px;
+        margin:10px;
+        text-align: center;
+    }
+  
+  .dropdownMenu a {
+    color:#FFF;
+    font-weight: 700;    
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .otp-boxes {
+    display: flex;
+    gap:20px;
+  }
+  .otp-boxes input {
+    width: 26px;
+    font-size: 28px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 2px;
+    border: 0;
+    /* border: 2px solid #55525c; */
+    background: #FFF;
+    font-weight: 700;
+    color: #000;
+    outline: none;
+    /* transition: all 0.1s; */
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container11 {
+      flex-direction: column;
+    }
+    .info {
+      margin: 0;
+      padding: 20px;
+    }
+    .inforegister {
+      margin: 0;
+      padding: 20px;
+    }
+    #mobileNumber {
+      font-size: 15px;
+    }
+    /* .checkbox-label {
+      padding-left: 20px;
+    } */
+  }

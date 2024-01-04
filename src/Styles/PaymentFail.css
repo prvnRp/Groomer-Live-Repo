@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+.paymentContainer{
+    flex: 1;
+    padding-left: 20px;
+    padding-top: 170px; 
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .mobileBankingImage {
+    width: 400px;
+    height: 330px;
+    position: relative;
+    top: 135px;
+    left: 210px;
+  }
+
+  .paymentHeading{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .paymentPara{
+    font-size: 15px;
+  }
+
+  .paymentContainer h5{
+    margin-top: 20px;
+  }
+
+  .justify-between{
+    margin-left: 40px;
+  }
+
+  .text-grey{
+    color: rgb(183, 181, 181);
+  }
+
+  .fontSize{
+    font-size: small;
+  }
+
+  .display-flex{
+    display: flex;
+  }
+
+  .menu{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+  }
+
+  .closeBtn{
+    color: white;
+    position: relative;
+    top: 110px;
+    right: 88px;
+    border-bottom: 1px solid white;
+  }
+
+  @media screen and (max-width: 768px) {
+    .paymentContainer{
+        flex: 1;
+        padding-left: 0px;
+        padding-top: 150px; 
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+      }
+
+      .mobileBankingImage {
+        width: 300px;
+        height: 230px;
+        position: relative;
+        top: 115px;
+        left: 20px;
+      }
+
+      .paymentHeading{
+        font-size: 25px;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+      }
+
+      .justify-between{
+        margin-left: 0px;
+      }
+
+      .display-flex{
+        display: block;
+      }
+
+      .menu{
+        position: absolute;
+        top: 30px;
+        right: 37px;
+      }
+  }
+
+ 
+ 

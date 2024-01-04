@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px" viewBox="0 0 26 26" version="1.1">
+<defs>
+<image id="image6" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAAFPklEQVR4nO2cy28cRRCHv/EK+wCJwHglLrxCsInswAUOBGHzfh4Q4ukQggBhIfHIjX+AGMGfwFMiCIQwD4kbihIQiFsISsBADCGJE0ESCImDI4EjMhyqW71erdf2bu/WzGx90qhX9qjnV1MzPd3VXQ2GYRiGYRiGYRiGYRiGYRiGYRjFJtEWUEUCrAVGgEFgALgIOA84251zCvgLmAamgEngC+B7IG2v3GKSIA54EziK3NRGjqPAG8Aw2XvQloym8B7gMeAF4LKKv08D24EdwB5gP3AMmHX/Pwc4H7gU6AeuAW4CLqyo4xfgFWALMNcqA4pCAmwADhGe7v3Ai8AVTdS7Btjs6vL1TgOjTdRZeFYDnxNu2LfAg0BXxGt0AQ8Buyqusw1YFfEaheBe4Dhyg44BY7S2yUyAjcARd80ZxFEdTwK8THha30d6Te2iF5iouP44Of7oN0sJeAu5Ef8CTytqeQb5wKdIb6ykqEWFBDE8RXpId+rKAeBm4CSiaQsd9qb4ZmoWuFZZSyXrEE0p0ivrCB5ADJ4D7lDWUotbkCY0Be5T1tJyViM9mhTdb8ZiPItoPI4MMgvLNsTQD7SFLIH3EK1btYW0ikcRA4/Q3q5to/QS4meFG6P0EMIhG5W1LIcnEM0HgG5lLVEZI4RD8tSdTIDdiPYnlbVEI0EirCkSm8obDyPap8jXw7QgI4hB+4gbKGwXJaTJSoHrNYXEunn+m/EOcCZSne3kP+Bd93uDppAYJISeSjPzGdoMIjYcJufN1lWEXkreOYjYMqglIEaTNezK7RHq0sbbcIOWgBgOGXLljgh1afONK3P9hgy4ck+EurTxNgzUPauFxHDIxa78NUJd2ux15SVaAmI4ZKUrT0SoSxtvw8q6Z2UcP69QhDhQD2LLP1oC8jiqbgdq45AYDqlcUZh3Vrhytu5ZLSSGQ2ZceW6EurTxNszUPauFxHDItCuLsDLQrzHepyUghkN+cmWe41geP/5Q68LHcMikK6+OUJc23oadqiqa5ErCSvO844OLa7WFNENl+H2NspZmGCKE39WGAzEunAKfut/rI9SnxSOu/IR8TrLNY5iQeJPHRcwlpMlNgRuVtUQhAX4mv+ub1iPaJ8n5bGElTyFG7SJfRnURMnjHlLVEpZvw2j+urGU5+AdpL3CWspbojBJSlHuVtSyFPuBPRHOeOyR18YutJ7SFLEICfERICs1TM7ssViETPSmSRpZVNiEaT1DwdASA+wkJO1lIZavmbuA0Mt4ofMKOZ5yQ0rZOWUsl1yH7paTAb0BZV077SIDXEcNPAXfpygHgVkLSpz9+BC7QFNVOSgSnzCFpZBokyDfjNLU3rtlNh70pmwnGT9DeLnEf8LG79hngd8wpANyD7HPlt9bYRGujqn5rDR+JPolkB5cJCTrVR0c1XyDdy63MfypHiRuQLCGDPB8OSYHPmN+1reeUjntTQAKQPkHGr5wfp7k1tUPAS4TwjQ+HLDQCN6dU0Y3k9E0x/2YcBN4GngNuQzYp63Xnd7vf/cDtwPPIFhmHquqYRAKFiy3eM6fUIEHSyF5DZutq3ZylHIeBV5H5jOWEQTLllKzFbxKk2RpBmqB+wiaYK9z/Z5HdFw4gTdJO4Gvkm9HoTF8ZiWfVmkv/Dtm05o8G6zYaxHpfGaSeU37AnKKCOSWDmFMyiDklg5hTMog5JYOYUzKIOSWDlJGR+0Jhlj49aZ1LPad8qKiro1nIKWq5iUZtp3ypqsigjMzX/w18BVyuK8cwDMMwDMMwDMMwDMMwDMMwDCP7/A/yvbFapHPusAAAAABJRU5ErkJggg=="/>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="25" height="25"/>
+</clipPath>
+<g id="surface7" clip-path="url(#clip1)">
+<use xlink:href="#image6" transform="matrix(0.25,0,0,0.25,0,0)"/>
+</g>
+<pattern id="pattern0" patternUnits="userSpaceOnUse" width="25" height="25" patternTransform="matrix(1.04,0,0,1.04,0,0)">
+<use xlink:href="#surface7"/>
+</pattern>
+</defs>
+<g id="surface2">
+<rect x="0" y="0" width="26" height="26" style="fill:url(#pattern0);stroke:none;"/>
+</g>
+</svg>

@@ -1,0 +1,163 @@
+
+@media screen and (max-width: 768px) {
+    .Card {
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .Card-item {
+        background-color: rgba(123, 123, 123, 0.25);
+        border-radius: 25px;
+        padding: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        padding-right: 9vw;
+        gap: 20px;
+        color: #FFF;
+    }
+
+    .circle3 {
+        width: 13px;
+        height: 13px;
+        border-radius: 13px;
+        position: relative;
+        top: 10px;
+        left: 15px;
+    }
+
+
+    .Carditem {
+        display: flex;
+        flex-direction: column;
+        font-family: Segoe UI;
+        font-style: normal;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 0px;
+        gap: 4px;
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        font-size: 12px;
+        font-style: normal;
+        border-radius: 8px;
+    }
+
+    .button-reschedule {
+        position: relative;
+        top: 13px;
+        background: #676767;
+        border: 0;
+        border-radius: 25px;
+        padding: 10px 17px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 13px;
+        margin-top: 1px;
+    }
+
+.button-cancel {
+    position: relative;
+    top: 13px;
+    font-size: 12px;
+    padding:10px 17px;
+}
+
+    td,
+    th {
+        text-align: left;
+    }
+
+    tr {
+        padding-top: 0px;
+    }
+
+    tr td {
+        padding-top: 0em;
+    }
+
+    .services-container{ 
+        display: flex; 
+        width: 100%; 
+        margin: 0.5rem; 
+        border: 1px solid white; 
+        border-radius: 1.5rem; 
+    } 
+    .each-service{ 
+        display: flex; 
+        /* flex-direction: column; */
+        flex-direction: row; 
+        margin: 0.3rem; 
+        padding-left: 0.2rem; 
+        padding-right: 0.2rem; 
+        font: 1rem; 
+        font-weight: 500; 
+        color:white; 
+        border: 1px solid white; 
+        border-radius: 10px; 
+    } 
+    .each-combo{ 
+        display: flex; 
+        flex-direction: row; 
+        margin: 0.5rem; 
+        padding-left: 0.6rem; 
+        padding-right: 0.6rem; 
+        font: 2rem; 
+        font-weight: 500; 
+        color:white; 
+        border: 1px solid rgb(228, 149, 13); 
+        border-radius: 10px; 
+    }
+
+    .services-container{ 
+        display: flex; 
+        flex-wrap: wrap; 
+        width:100%; 
+        margin-top:1rem; 
+        margin-right: 1rem; 
+        margin-left: 1rem; 
+        margin-bottom: 1rem; 
+        /* align-self: flex-start; */ 
+        border: 1px solid white; 
+        border-radius: 1.5rem; 
+    } 
+    .each-service{ 
+        display: flex; 
+        flex-direction: row; 
+        margin: 0.3rem; 
+        padding-left: 0.6rem; 
+        padding-right: 0.6rem; 
+        font: 2rem; 
+        font-weight: 500; 
+        color:white; 
+        border: 1px solid white; 
+        border-radius: 10px; 
+    } 
+    .each-combo{ 
+        display: flex; 
+        flex-direction: row; 
+        margin: 0.5rem; 
+        padding-left: 0.6rem; 
+        padding-right: 0.6rem; 
+        font: 2rem; 
+        font-weight: 500; 
+        color:white; 
+        border: 1px solid rgb(228, 149, 13); 
+        border-radius: 10px; 
+    }
+
+    .locationIconSize{
+        font-size: 1px;
+        position: absolute;
+        right:70px;
+
+      }
+}

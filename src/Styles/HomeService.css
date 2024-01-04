@@ -1,0 +1,249 @@
+.hamburger{
+    position: fixed;
+    top: 3vw;
+    right: 3vw;
+}
+
+.serviceDetails{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.homeServiceForm{
+    padding-top: 30px;
+    width: 60%;
+    height: 70%;
+}
+
+.selected-services{
+    width: 350px;
+    height: inherit;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.searchService{
+    padding-top: 50px;
+}
+
+.select-box{
+    width: 348px;
+    background: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+}
+
+.service{
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: small;
+    padding: 3px 4px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+
+.remove-btn{
+    background-color: none;
+    color: white;
+    font-size: small;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.pd-left{
+    padding-left: 30px;
+}
+
+.pd-right{
+    padding-right: 47px;
+}
+
+.pd-top{
+    padding-top: 20px;
+}
+
+.inputField{
+    border: none;
+    border-bottom: 1px dashed white;
+    background-color: black;
+    color: white;
+    font-family: Segoe UI;
+}
+
+.inputwidth{
+    width: 400px;
+}
+
+.suggestion{
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px dashed white;
+}
+
+.btn-style{
+    width: 200px;
+    background-color: #ff6548;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.styleDateTime{
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 2px solid #ff6548;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+        color: white;
+        background-color: #ff6548;
+        cursor: pointer;
+        border-radius: 20%;
+        box-shadow: 2px 2px 2px 2px rgb(55, 54, 54);
+}
+
+
+input[type="time"]::-webkit-calendar-picker-indicator{
+    color: black;
+    background-color: #ff6548;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+.pr-2{
+    padding-right: 20px;
+    padding-left: 8px;
+}
+
+.dflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pdleft{
+    padding-left: 30px;
+}
+
+.pdLeft{
+    padding-left: 62px;
+    padding-top: 22px;
+}
+
+.mt{
+    margin-top: 10px;
+}
+
+.homeServiceMenu{
+    background-color: white;
+    padding: 0px;
+    border-radius: 23px;
+}
+
+.mobileviewCheckbox {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    .hamburger{
+        position: fixed;
+        top: 7vw;
+        right: 6vw;
+    }
+
+    .homeServiceForm{
+        padding: 40px 5px;
+        width: 90%;
+        height: 70%;
+    }
+
+    .pr-2{
+        padding-right: 20px;
+        padding-left : 8px
+    }
+
+    .serviceDetails{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .dflex{
+        display: block;
+    }
+
+    .pdleft{
+        padding-left: 8px;
+    }
+
+    .pd-left{
+        padding-left: 10px;
+    }
+
+    .selected-services{
+        width: 200px;
+        height: inherit;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    .select-box{
+        width: 197px;
+        background: black;
+        border-radius: 10px;
+        border: 1px solid black;
+        color: white;
+    }
+
+    .pd-right{
+        padding-right: 30px;
+    }
+
+    .inputwidth{
+        width: 200px;
+    }
+
+    .searchService{
+        padding-top: 55px;
+    }
+
+    .selectedOptions{
+        width: 20px;
+    }
+
+    .mobileNum{
+        margin-top: 20px;
+    }
+
+    .checkbox{
+        margin-right: 12px;
+    }
+
+    .service {
+        border: 1px solid white;
+        border-radius: 20px;
+        font-size: small;
+        padding: 3px 4px;
+        margin-left: 4px;
+        margin-top: 5px;
+        width: fit-content;
+    }
+
+    .mobileviewCheckbox{
+        display: flex;
+    }
+    
+    .pdLeft{
+        padding-left: 47px;
+        padding-top: 0px;
+    }
+}

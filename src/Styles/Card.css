@@ -1,0 +1,33 @@
+/* Add these CSS styles to your existing CSS or create a new CSS file */
+@keyframes slideIn {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .card-content {
+    animation-duration: 0.5s;
+  }
+  
+  .card.slide-in .card-content {
+    animation-name: slideIn;
+    animation-fill-mode: forwards;
+  }
+  
+  .card.slide-out .card-content {
+    animation-name: slideOut;
+    animation-fill-mode: forwards;
+  }
+  

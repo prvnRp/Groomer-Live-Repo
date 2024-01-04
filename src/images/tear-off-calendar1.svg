@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="22px" viewBox="0 0 24 22" version="1.1">
+<defs>
+<image id="image6" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAABmJLR0QA/wD/AP+gvaeTAAACmklEQVR4nO3cTW7UQBAF4FeABBJkDwk3AJFlLpETRGKbHGG4CuzhBjkEu0SJOAESWcNkETbNwmaF3cwrl8s/8z4pm1F1u/LksUYlqwERERERERERkfUw78JSyjMAFwDOALwB8DyqqZm5B3AL4AuAj2b24NnEFXQp5TWASwDvPOsX7BrAqZl9ZxfSQbd38lfsX8h/XQM4Ye/sR44LXWB/QwaAYwDn7CJP0GeONWtDZ+B5dPwC8IJdtzJbMztgFniCLp0bmbl/wcxZ1P/reXSIg4JOoqCTKOgkCjqJgk6ioJMo6CQKOomCTqKgkzyJ2qhvJiAN3dFJFHQSBZ1EQSdR0EkUdBIFnURBJ5ky6N8ANgCO2r8P7Wf/rTcSu/+O9eMqcTYde2+Yekfv1P61+qG97NJslFcde79k6h29U/vX6tlrT/no6Hov4nFvsdmPwRc0u4vqhzVl0O93/CzLvPpxPia6PJTmGXjY/m3az0K+qo7+R+0n7JWwsfW9gtXXD1sf1U8f/Y5OoqCTKOgkCjqJgk4SGbR7drFjfafKfIO1mFnH4NlFrX5u/Uf142l08OyiVj+3/tnrRj462FkBVV9KOaQ7+nePo6h+WJFBs7OCiHpWZD/jqnz1qFnBkHpHz+H9sD0sZtYxN5p1zJSCTqKgkyjoJAo6yZJmHZPMUiZT+R066qwjoZ4Sl2iPyrVHnXUk1FPY3BYz60ioH9XSZx3LmV2wKt+mtFnHSPUUNjfNOpw065gpBZ3EE/Q2vIvl+cku8AT9zbFmbegMPEF/dqxZGzoDz6+Op2gOgT1m167EFZpDYKm5CX1Ht6fMnqI5dXbfXKE51ph/0cd7xfbOPkdzIOpbrPe80i2AGzQHdX/yhCwiIiIiIiIisjZ/AALT4R20Eoz2AAAAAElFTkSuQmCC"/>
+<clipPath id="clip1">
+  <rect x="0" y="0" width="24" height="21"/>
+</clipPath>
+<g id="surface7" clip-path="url(#clip1)">
+<use xlink:href="#image6" transform="matrix(0.238596,0,0,0.233333,1.263158,0)"/>
+</g>
+<pattern id="pattern0" patternUnits="userSpaceOnUse" width="24" height="21" patternTransform="matrix(1,0,0,1.028088,0,0.410156)">
+<use xlink:href="#surface7"/>
+</pattern>
+</defs>
+<g id="surface2">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#pattern0);" d="M 0 0.410156 L 24 0.410156 L 24 22 L 0 22 Z M 0 0.410156 "/>
+</g>
+</svg>

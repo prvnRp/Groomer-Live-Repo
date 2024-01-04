@@ -1,0 +1,21 @@
+.popup {
+    position: fixed;
+    top: 100px;
+    right: 30vw;
+    width: 30vw;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    background: rgba(217, 217, 217, 0.10);
+    border-radius: 45px;
+    text-align: center;
+    color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+    .popup {
+        top: 110px;
+        width: 80vw;
+        right: 10vw;
+        font-size: 15px;
+    }
+}

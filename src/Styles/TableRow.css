@@ -1,0 +1,95 @@
+.date {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 18px;
+    padding: 12px;
+}
+
+.Table
+{
+    display: table;
+    width: 100%;
+    /* padding-left: 50px; */
+}
+.Title
+{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.Heading
+{
+    display: table-row;
+    font-weight: bold;
+    /* text-align: center; */
+}
+.Row
+{
+    display: table-row;
+    background: #1C1C1C;
+}
+.Cell
+{
+    display: table-cell;
+    border: none;
+    /* border-width: thin; */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Cell1
+{
+    display: table-cell;
+    border: none;
+    /* border-width: thin; */
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Row1
+{
+    display: table-row;
+    background: #1C1C1C;
+    width: 100%;
+}
+
+.services-container{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    width:325px; 
+    margin-top:0rem; 
+    /* margin-right: 1rem;  */
+    margin-left: 3rem; 
+    margin-bottom: 1rem; 
+    /* align-self: flex-start; */ 
+    border: 1px solid white; 
+    border-radius: 1.5rem; 
+} 
+.each-service{ 
+    display: flex; 
+    flex-direction: row; 
+    margin: 0.3rem; 
+    padding-left: 0.6rem; 
+    padding-right: 0.6rem; 
+    font: 2rem; 
+    font-weight: 500; 
+    color:white; 
+    border: 1px solid white; 
+    border-radius: 10px; 
+} 
+.each-combo{ 
+    display: flex; 
+    flex-direction: row; 
+    margin: 0.5rem; 
+    padding-left: 0.6rem; 
+    padding-right: 0.6rem; 
+    font: 2rem; 
+    font-weight: 500; 
+    color:white; 
+    border: 1px solid rgb(228, 149, 13); 
+    border-radius: 10px; 
+}

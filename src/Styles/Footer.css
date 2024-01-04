@@ -1,0 +1,95 @@
+/* Style the arc-shaped footer */
+.footer {
+  position: relative;
+  background-color: #000;
+  background: linear-gradient(to bottom, transparent 50%, #1e1e1e 50%);
+  height: 350px;
+  overflow: hidden;
+  /* z-index: -1; */
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 350px;
+  border-radius: 70%/100px 100px 0 0;
+  background: linear-gradient(to bottom, #1e1e1e 50%, #1e1e1e 50%);
+  background-color: #000; /* Match the background color of the footer */
+  z-index: -1;
+}
+
+/* Adjust the positioning to fine-tune the arc shape */
+.bg-image-about {
+  position: relative;
+  z-index: 1;
+}
+
+/* Restyle the content above the footer */
+.content-about {
+  position: relative;
+  z-index: 2;
+}
+
+.groomerLive {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.groomerInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-content {
+  margin: 7vh;
+}
+@media screen and (max-width: 768px) {
+  .groomerLive {
+    font-size: 20px;
+  }
+  .groomerInfo {
+    gap: 5px;
+    font-size: 15px;
+  }
+  .termsConditions {
+    font-size: 15px;
+  }
+  .footer-content {
+    margin: 2vh;
+    margin-top: 9vh;
+    margin-bottom: 0px;
+  }
+  .footer1 {
+    gap: 20px;
+  }
+  .footer {
+    height: 300px;
+  }
+  .footer::before {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .groomerLive {
+    font-size: 15px;
+  }
+  .groomerInfo {
+    gap: 5px;
+    font-size: 12px;
+  }
+  .termsConditions {
+    font-size: 12px;
+  }
+  .footer-content {
+    /* margin: 2vh; */
+    margin-top: 9vh;
+    margin-bottom: 0px;
+  }
+}
